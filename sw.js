@@ -1,11 +1,11 @@
-// BronchoTrainer service worker. Template: vite.config.ts fills in cb1d6f0b6eeb and ["./","assets/index-06tcysle.js","assets/index-Bv2foDmy.css","icons/icon-192.png","icons/icon-512.png","icons/icon.svg","index.html","manifest.webmanifest"] at build time.
+// BronchoTrainer service worker. Template: vite.config.ts fills in e3fa1c81b6cf and ["./","assets/index-BjH2Q0T9.css","assets/index-DyRplfuQ.js","icons/icon-192.png","icons/icon-512.png","icons/icon.svg","index.html","manifest.webmanifest"] at build time.
 //  - app shell (html, js, css, icons): precached on install, cache-first (index.html is network-first)
 //  - /cases/*: cached on first use. index.json, case.json and tree.json are network-first (cache fallback); big files are cache-first
 //    and never precached. The cache name carries a hash of the published case files, so changed data starts a fresh cache.
 const VERSION = "__VERSION__";
 const PRECACHE = __PRECACHE__;
 const SHELL = `bt-shell-${VERSION}`;
-const CASES = `bt-cases-08e2b873387f`;
+const CASES = `bt-cases-9e81e379899b`;
 const scope = self.registration.scope;
 const abs = (p) => new URL(p, scope).href;
 
@@ -36,10 +36,12 @@ async function cacheFirst(req, cacheName) {
   return res;
 }
 
+// Network-first fetches revalidate with the server ("no-cache"): GitHub Pages lets browsers keep files for
+// 10 minutes, which would otherwise serve a stale case list or tree right after a deploy.
 async function networkFirst(req, cacheName) {
   const cache = await caches.open(cacheName);
   try {
-    const res = await fetch(req);
+    const res = await fetch(req.url, { cache: "no-cache" });
     if (res.ok && res.status === 200) cache.put(req, res.clone()).catch(() => {});
     return res;
   } catch (err) {
@@ -52,7 +54,7 @@ async function networkFirst(req, cacheName) {
 async function networkFirstPage(req) {
   const cache = await caches.open(SHELL);
   try {
-    const res = await fetch(req);
+    const res = await fetch(req.url, { cache: "no-cache", credentials: "same-origin" });
     if (res.ok) cache.put(abs("index.html"), res.clone()).catch(() => {});
     return res;
   } catch (err) {

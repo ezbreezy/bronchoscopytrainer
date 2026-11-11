@@ -2034,7 +2034,8 @@
       "parent": "b4",
       "children": [
         "b22",
-        "b23"
+        "b50",
+        "b51"
       ],
       "generation": 3,
       "centerline": [
@@ -2092,6 +2093,46 @@
           24.543,
           -136.48,
           -202.1
+        ],
+        [
+          25.154,
+          -136.175,
+          -202.894
+        ],
+        [
+          25.647,
+          -135.96,
+          -203.789
+        ],
+        [
+          26.077,
+          -135.754,
+          -204.72
+        ],
+        [
+          26.512,
+          -135.609,
+          -205.661
+        ],
+        [
+          26.982,
+          -135.466,
+          -206.585
+        ],
+        [
+          27.577,
+          -135.402,
+          -207.44
+        ],
+        [
+          28.216,
+          -135.402,
+          -208.27
+        ],
+        [
+          28.855,
+          -135.402,
+          -209.1
         ]
       ],
       "radius_mm": [
@@ -2105,9 +2146,17 @@
         2.403,
         2.601,
         2.775,
-        3.037
+        3.037,
+        2.732,
+        2.709,
+        2.479,
+        2.257,
+        2.175,
+        2.226,
+        2.45,
+        2.411
       ],
-      "length_mm": 10.336,
+      "length_mm": 18.716,
       "lobe": null,
       "label": {
         "name": "Left lower lobe basal trunk",
@@ -3223,75 +3272,6 @@
       }
     },
     {
-      "id": "b23",
-      "parent": "b10",
-      "children": [
-        "b50",
-        "b51"
-      ],
-      "generation": 4,
-      "centerline": [
-        [
-          24.543,
-          -136.48,
-          -202.1
-        ],
-        [
-          25.154,
-          -136.175,
-          -202.894
-        ],
-        [
-          25.647,
-          -135.96,
-          -203.789
-        ],
-        [
-          26.077,
-          -135.754,
-          -204.72
-        ],
-        [
-          26.512,
-          -135.609,
-          -205.661
-        ],
-        [
-          26.982,
-          -135.466,
-          -206.585
-        ],
-        [
-          27.577,
-          -135.402,
-          -207.44
-        ],
-        [
-          28.216,
-          -135.402,
-          -208.27
-        ],
-        [
-          28.855,
-          -135.402,
-          -209.1
-        ]
-      ],
-      "radius_mm": [
-        3.037,
-        2.732,
-        2.709,
-        2.479,
-        2.257,
-        2.175,
-        2.226,
-        2.45,
-        2.411
-      ],
-      "length_mm": 8.38,
-      "lobe": null
-    },
-    {
       "id": "b24",
       "parent": "b11",
       "children": [
@@ -3842,7 +3822,9 @@
       "parent": "b12",
       "children": [
         "b60",
-        "b61"
+        "b120",
+        "b174",
+        "b175"
       ],
       "generation": 4,
       "centerline": [
@@ -3885,6 +3867,96 @@
           -56.855,
           -144.566,
           -200.7
+        ],
+        [
+          -57.636,
+          -144.414,
+          -201.294
+        ],
+        [
+          -58.245,
+          -144.351,
+          -202.084
+        ],
+        [
+          -58.75,
+          -144.202,
+          -202.934
+        ],
+        [
+          -59.161,
+          -144.027,
+          -203.823
+        ],
+        [
+          -59.629,
+          -144.027,
+          -204.709
+        ],
+        [
+          -60.09,
+          -144.027,
+          -205.6
+        ],
+        [
+          -60.09,
+          -143.508,
+          -206.409
+        ],
+        [
+          -60.244,
+          -143.181,
+          -207.299
+        ],
+        [
+          -60.386,
+          -142.976,
+          -208.225
+        ],
+        [
+          -60.647,
+          -142.836,
+          -209.138
+        ],
+        [
+          -61.046,
+          -142.702,
+          -210.003
+        ],
+        [
+          -61.441,
+          -142.516,
+          -210.858
+        ],
+        [
+          -61.82,
+          -142.19,
+          -211.677
+        ],
+        [
+          -62.192,
+          -141.818,
+          -212.482
+        ],
+        [
+          -62.467,
+          -141.429,
+          -213.317
+        ],
+        [
+          -62.736,
+          -140.941,
+          -214.101
+        ],
+        [
+          -63.086,
+          -140.492,
+          -214.874
+        ],
+        [
+          -63.504,
+          -140.074,
+          -215.633
         ]
       ],
       "radius_mm": [
@@ -3895,9 +3967,27 @@
         1.919,
         1.937,
         2.216,
-        2.33
+        2.33,
+        2.24,
+        2.116,
+        1.973,
+        2.078,
+        2.158,
+        2.139,
+        2.156,
+        1.933,
+        1.909,
+        2.012,
+        2.018,
+        2.113,
+        2.015,
+        2.17,
+        2.009,
+        2.092,
+        2.112,
+        2.075
       ],
-      "length_mm": 7.249,
+      "length_mm": 24.809,
       "lobe": null,
       "label": {
         "name": "Right lower lobe basal trunk",
@@ -6380,12 +6470,12 @@
     },
     {
       "id": "b50",
-      "parent": "b23",
+      "parent": "b10",
       "children": [
         "b98",
         "b99"
       ],
-      "generation": 5,
+      "generation": 4,
       "centerline": [
         [
           28.855,
@@ -6467,13 +6557,13 @@
     },
     {
       "id": "b51",
-      "parent": "b23",
+      "parent": "b10",
       "children": [
         "b100",
         "b101",
         "b102"
       ],
-      "generation": 5,
+      "generation": 4,
       "centerline": [
         [
           28.855,
@@ -7693,63 +7783,6 @@
         "status": "suggested",
         "variant": null
       }
-    },
-    {
-      "id": "b61",
-      "parent": "b28",
-      "children": [
-        "b120",
-        "b121"
-      ],
-      "generation": 5,
-      "centerline": [
-        [
-          -56.855,
-          -144.566,
-          -200.7
-        ],
-        [
-          -57.636,
-          -144.414,
-          -201.294
-        ],
-        [
-          -58.245,
-          -144.351,
-          -202.084
-        ],
-        [
-          -58.75,
-          -144.202,
-          -202.934
-        ],
-        [
-          -59.161,
-          -144.027,
-          -203.823
-        ],
-        [
-          -59.629,
-          -144.027,
-          -204.709
-        ],
-        [
-          -60.09,
-          -144.027,
-          -205.6
-        ]
-      ],
-      "radius_mm": [
-        2.33,
-        2.24,
-        2.116,
-        1.973,
-        2.078,
-        2.158,
-        2.139
-      ],
-      "length_mm": 6.018,
-      "lobe": null
     },
     {
       "id": "b62",
@@ -12426,7 +12459,7 @@
         "b154",
         "b155"
       ],
-      "generation": 6,
+      "generation": 5,
       "centerline": [
         [
           37.48,
@@ -12498,7 +12531,7 @@
       "id": "b99",
       "parent": "b50",
       "children": [],
-      "generation": 6,
+      "generation": 5,
       "centerline": [
         [
           37.48,
@@ -12573,7 +12606,7 @@
         "b156",
         "b157"
       ],
-      "generation": 6,
+      "generation": 5,
       "centerline": [
         [
           30.742,
@@ -12660,7 +12693,7 @@
         "b158",
         "b159"
       ],
-      "generation": 6,
+      "generation": 5,
       "centerline": [
         [
           31.416,
@@ -12795,7 +12828,7 @@
         "b160",
         "b161"
       ],
-      "generation": 6,
+      "generation": 5,
       "centerline": [
         [
           31.416,
@@ -15454,12 +15487,12 @@
     },
     {
       "id": "b120",
-      "parent": "b61",
+      "parent": "b28",
       "children": [
         "b172",
         "b173"
       ],
-      "generation": 6,
+      "generation": 5,
       "centerline": [
         [
           -60.09,
@@ -15592,99 +15625,6 @@
         "status": "suggested",
         "variant": null
       }
-    },
-    {
-      "id": "b121",
-      "parent": "b61",
-      "children": [
-        "b174",
-        "b175"
-      ],
-      "generation": 6,
-      "centerline": [
-        [
-          -60.09,
-          -144.027,
-          -205.6
-        ],
-        [
-          -60.09,
-          -143.508,
-          -206.409
-        ],
-        [
-          -60.244,
-          -143.181,
-          -207.299
-        ],
-        [
-          -60.386,
-          -142.976,
-          -208.225
-        ],
-        [
-          -60.647,
-          -142.836,
-          -209.138
-        ],
-        [
-          -61.046,
-          -142.702,
-          -210.003
-        ],
-        [
-          -61.441,
-          -142.516,
-          -210.858
-        ],
-        [
-          -61.82,
-          -142.19,
-          -211.677
-        ],
-        [
-          -62.192,
-          -141.818,
-          -212.482
-        ],
-        [
-          -62.467,
-          -141.429,
-          -213.317
-        ],
-        [
-          -62.736,
-          -140.941,
-          -214.101
-        ],
-        [
-          -63.086,
-          -140.492,
-          -214.874
-        ],
-        [
-          -63.504,
-          -140.074,
-          -215.633
-        ]
-      ],
-      "radius_mm": [
-        2.139,
-        2.156,
-        1.933,
-        1.909,
-        2.012,
-        2.018,
-        2.113,
-        2.015,
-        2.17,
-        2.009,
-        2.092,
-        2.112,
-        2.075
-      ],
-      "length_mm": 11.542,
-      "lobe": "RLL"
     },
     {
       "id": "b122",
@@ -18930,7 +18870,7 @@
       "id": "b154",
       "parent": "b98",
       "children": [],
-      "generation": 7,
+      "generation": 6,
       "centerline": [
         [
           45.027,
@@ -19062,7 +19002,7 @@
       "id": "b155",
       "parent": "b98",
       "children": [],
-      "generation": 7,
+      "generation": 6,
       "centerline": [
         [
           45.027,
@@ -19161,7 +19101,7 @@
         "b188",
         "b189"
       ],
-      "generation": 7,
+      "generation": 6,
       "centerline": [
         [
           31.191,
@@ -19302,7 +19242,7 @@
         "b190",
         "b191"
       ],
-      "generation": 7,
+      "generation": 6,
       "centerline": [
         [
           31.191,
@@ -19392,7 +19332,7 @@
       "id": "b158",
       "parent": "b101",
       "children": [],
-      "generation": 7,
+      "generation": 6,
       "centerline": [
         [
           39.457,
@@ -19599,7 +19539,7 @@
         "b192",
         "b193"
       ],
-      "generation": 7,
+      "generation": 6,
       "centerline": [
         [
           39.457,
@@ -19674,7 +19614,7 @@
         "b194",
         "b195"
       ],
-      "generation": 7,
+      "generation": 6,
       "centerline": [
         [
           42.691,
@@ -19842,7 +19782,7 @@
       "id": "b161",
       "parent": "b102",
       "children": [],
-      "generation": 7,
+      "generation": 6,
       "centerline": [
         [
           42.691,
@@ -21240,7 +21180,7 @@
         "b202",
         "b203"
       ],
-      "generation": 7,
+      "generation": 6,
       "centerline": [
         [
           -71.77,
@@ -21345,7 +21285,7 @@
         "b204",
         "b205"
       ],
-      "generation": 7,
+      "generation": 6,
       "centerline": [
         [
           -71.77,
@@ -21445,12 +21385,12 @@
     },
     {
       "id": "b174",
-      "parent": "b121",
+      "parent": "b28",
       "children": [
         "b206",
         "b207"
       ],
-      "generation": 7,
+      "generation": 5,
       "centerline": [
         [
           -63.504,
@@ -21544,12 +21484,12 @@
     },
     {
       "id": "b175",
-      "parent": "b121",
+      "parent": "b28",
       "children": [
         "b208",
         "b209"
       ],
-      "generation": 7,
+      "generation": 5,
       "centerline": [
         [
           -63.504,
@@ -22941,7 +22881,7 @@
       "id": "b188",
       "parent": "b156",
       "children": [],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           38.559,
@@ -23067,7 +23007,7 @@
       "id": "b189",
       "parent": "b156",
       "children": [],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           38.559,
@@ -23217,7 +23157,7 @@
       "id": "b190",
       "parent": "b157",
       "children": [],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           29.215,
@@ -23496,7 +23436,7 @@
         "b214",
         "b215"
       ],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           29.215,
@@ -23637,7 +23577,7 @@
         "b216",
         "b217"
       ],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           43.59,
@@ -23742,7 +23682,7 @@
         "b218",
         "b219"
       ],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           43.59,
@@ -23817,7 +23757,7 @@
         "b220",
         "b221"
       ],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           61.091,
@@ -23961,7 +23901,7 @@
       "id": "b195",
       "parent": "b160",
       "children": [],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           61.091,
@@ -24609,7 +24549,7 @@
       "id": "b202",
       "parent": "b172",
       "children": [],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           -80.395,
@@ -24954,7 +24894,7 @@
         "b222",
         "b223"
       ],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           -80.395,
@@ -25020,7 +24960,7 @@
       "id": "b204",
       "parent": "b173",
       "children": [],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           -83.809,
@@ -25194,7 +25134,7 @@
       "id": "b205",
       "parent": "b173",
       "children": [],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           -83.809,
@@ -25347,7 +25287,7 @@
         "b224",
         "b225"
       ],
-      "generation": 8,
+      "generation": 6,
       "centerline": [
         [
           -72.848,
@@ -25488,7 +25428,7 @@
         "b226",
         "b227"
       ],
-      "generation": 8,
+      "generation": 6,
       "centerline": [
         [
           -72.848,
@@ -25575,7 +25515,7 @@
         "b228",
         "b229"
       ],
-      "generation": 8,
+      "generation": 6,
       "centerline": [
         [
           -64.402,
@@ -25668,7 +25608,7 @@
         "b230",
         "b231"
       ],
-      "generation": 8,
+      "generation": 6,
       "centerline": [
         [
           -64.402,
@@ -26013,7 +25953,7 @@
         "b232",
         "b233"
       ],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           28.855,
@@ -26160,7 +26100,7 @@
         "b234",
         "b235"
       ],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           28.855,
@@ -26256,7 +26196,7 @@
       "id": "b216",
       "parent": "b192",
       "children": [],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           54.012,
@@ -26385,7 +26325,7 @@
         "b236",
         "b237"
       ],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           54.012,
@@ -26604,7 +26544,7 @@
         "b238",
         "b239"
       ],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           44.309,
@@ -26664,7 +26604,7 @@
       "id": "b219",
       "parent": "b193",
       "children": [],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           44.309,
@@ -26838,7 +26778,7 @@
       "id": "b220",
       "parent": "b194",
       "children": [],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           74.137,
@@ -27006,7 +26946,7 @@
       "id": "b221",
       "parent": "b194",
       "children": [],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           74.137,
@@ -27153,7 +27093,7 @@
         "b240",
         "b241"
       ],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           -82.73,
@@ -27243,7 +27183,7 @@
       "id": "b223",
       "parent": "b203",
       "children": [],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           -82.73,
@@ -27306,7 +27246,7 @@
         "b242",
         "b243"
       ],
-      "generation": 9,
+      "generation": 7,
       "centerline": [
         [
           -87.762,
@@ -27495,7 +27435,7 @@
         "b244",
         "b245"
       ],
-      "generation": 9,
+      "generation": 7,
       "centerline": [
         [
           -87.762,
@@ -27573,7 +27513,7 @@
       "id": "b226",
       "parent": "b207",
       "children": [],
-      "generation": 9,
+      "generation": 7,
       "centerline": [
         [
           -78.957,
@@ -27708,7 +27648,7 @@
         "b246",
         "b247"
       ],
-      "generation": 9,
+      "generation": 7,
       "centerline": [
         [
           -78.957,
@@ -27801,7 +27741,7 @@
         "b248",
         "b249"
       ],
-      "generation": 9,
+      "generation": 7,
       "centerline": [
         [
           -65.48,
@@ -27942,7 +27882,7 @@
         "b250",
         "b251"
       ],
-      "generation": 9,
+      "generation": 7,
       "centerline": [
         [
           -65.48,
@@ -28062,7 +28002,7 @@
       "id": "b230",
       "parent": "b209",
       "children": [],
-      "generation": 9,
+      "generation": 7,
       "centerline": [
         [
           -62.605,
@@ -28263,7 +28203,7 @@
         "b252",
         "b253"
       ],
-      "generation": 9,
+      "generation": 7,
       "centerline": [
         [
           -62.605,
@@ -28329,7 +28269,7 @@
       "id": "b232",
       "parent": "b214",
       "children": [],
-      "generation": 10,
+      "generation": 9,
       "centerline": [
         [
           31.281,
@@ -28545,7 +28485,7 @@
       "id": "b233",
       "parent": "b214",
       "children": [],
-      "generation": 10,
+      "generation": 9,
       "centerline": [
         [
           31.281,
@@ -28695,7 +28635,7 @@
       "id": "b234",
       "parent": "b215",
       "children": [],
-      "generation": 10,
+      "generation": 9,
       "centerline": [
         [
           25.621,
@@ -28947,7 +28887,7 @@
       "id": "b235",
       "parent": "b215",
       "children": [],
-      "generation": 10,
+      "generation": 9,
       "centerline": [
         [
           25.621,
@@ -29055,7 +28995,7 @@
       "id": "b236",
       "parent": "b217",
       "children": [],
-      "generation": 10,
+      "generation": 9,
       "centerline": [
         [
           78.988,
@@ -29181,7 +29121,7 @@
       "id": "b237",
       "parent": "b217",
       "children": [],
-      "generation": 10,
+      "generation": 9,
       "centerline": [
         [
           78.988,
@@ -29289,7 +29229,7 @@
       "id": "b238",
       "parent": "b218",
       "children": [],
-      "generation": 10,
+      "generation": 9,
       "centerline": [
         [
           46.645,
@@ -29595,7 +29535,7 @@
       "id": "b239",
       "parent": "b218",
       "children": [],
-      "generation": 10,
+      "generation": 9,
       "centerline": [
         [
           46.645,
@@ -29637,7 +29577,7 @@
       "id": "b240",
       "parent": "b222",
       "children": [],
-      "generation": 10,
+      "generation": 9,
       "centerline": [
         [
           -89.918,
@@ -29763,7 +29703,7 @@
       "id": "b241",
       "parent": "b222",
       "children": [],
-      "generation": 10,
+      "generation": 9,
       "centerline": [
         [
           -89.918,
@@ -29823,7 +29763,7 @@
       "id": "b242",
       "parent": "b224",
       "children": [],
-      "generation": 10,
+      "generation": 8,
       "centerline": [
         [
           -107.527,
@@ -29949,7 +29889,7 @@
       "id": "b243",
       "parent": "b224",
       "children": [],
-      "generation": 10,
+      "generation": 8,
       "centerline": [
         [
           -107.527,
@@ -30033,7 +29973,7 @@
       "id": "b244",
       "parent": "b225",
       "children": [],
-      "generation": 10,
+      "generation": 8,
       "centerline": [
         [
           -95.668,
@@ -30189,7 +30129,7 @@
       "id": "b245",
       "parent": "b225",
       "children": [],
-      "generation": 10,
+      "generation": 8,
       "centerline": [
         [
           -95.668,
@@ -30279,7 +30219,7 @@
       "id": "b246",
       "parent": "b227",
       "children": [],
-      "generation": 10,
+      "generation": 8,
       "centerline": [
         [
           -82.73,
@@ -30417,7 +30357,7 @@
       "id": "b247",
       "parent": "b227",
       "children": [],
-      "generation": 10,
+      "generation": 8,
       "centerline": [
         [
           -82.73,
@@ -30534,7 +30474,7 @@
         "b254",
         "b255"
       ],
-      "generation": 10,
+      "generation": 8,
       "centerline": [
         [
           -63.145,
@@ -30597,7 +30537,7 @@
         "b256",
         "b257"
       ],
-      "generation": 10,
+      "generation": 8,
       "centerline": [
         [
           -63.145,
@@ -30633,7 +30573,7 @@
       "id": "b250",
       "parent": "b229",
       "children": [],
-      "generation": 10,
+      "generation": 8,
       "centerline": [
         [
           -74.105,
@@ -30804,7 +30744,7 @@
         "b258",
         "b259"
       ],
-      "generation": 10,
+      "generation": 8,
       "centerline": [
         [
           -74.105,
@@ -30894,7 +30834,7 @@
       "id": "b252",
       "parent": "b231",
       "children": [],
-      "generation": 10,
+      "generation": 8,
       "centerline": [
         [
           -56.855,
@@ -30978,7 +30918,7 @@
       "id": "b253",
       "parent": "b231",
       "children": [],
-      "generation": 10,
+      "generation": 8,
       "centerline": [
         [
           -56.855,
@@ -31038,7 +30978,7 @@
       "id": "b254",
       "parent": "b248",
       "children": [],
-      "generation": 11,
+      "generation": 9,
       "centerline": [
         [
           -62.965,
@@ -31296,7 +31236,7 @@
       "id": "b255",
       "parent": "b248",
       "children": [],
-      "generation": 11,
+      "generation": 9,
       "centerline": [
         [
           -62.965,
@@ -31386,7 +31326,7 @@
       "id": "b256",
       "parent": "b249",
       "children": [],
-      "generation": 11,
+      "generation": 9,
       "centerline": [
         [
           -61.168,
@@ -31650,7 +31590,7 @@
       "id": "b257",
       "parent": "b249",
       "children": [],
-      "generation": 11,
+      "generation": 9,
       "centerline": [
         [
           -61.168,
@@ -31812,7 +31752,7 @@
       "id": "b258",
       "parent": "b251",
       "children": [],
-      "generation": 11,
+      "generation": 9,
       "centerline": [
         [
           -75.992,
@@ -32043,7 +31983,7 @@
         "b260",
         "b261"
       ],
-      "generation": 11,
+      "generation": 9,
       "centerline": [
         [
           -75.992,
@@ -32103,7 +32043,7 @@
       "id": "b260",
       "parent": "b259",
       "children": [],
-      "generation": 12,
+      "generation": 10,
       "centerline": [
         [
           -79.676,
@@ -32253,7 +32193,7 @@
       "id": "b261",
       "parent": "b259",
       "children": [],
-      "generation": 12,
+      "generation": 10,
       "centerline": [
         [
           -79.676,
