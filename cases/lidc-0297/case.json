@@ -1,0 +1,28 @@
+{
+  "case_id": "lidc-0297",
+  "title": "Normal airway tree (LIDC-IDRI-0297)",
+  "attribution": [
+    "LIDC-IDRI consortium (Armato SG III et al.); NCI and FNIH \u2014 CC BY 3.0",
+    "Armato SG III et al. Data from LIDC-IDRI. The Cancer Imaging Archive, 2015. https://doi.org/10.7937/K9/TCIA.2015.LO9QL9SX",
+    "https://www.cancerimagingarchive.net/collection/lidc-idri/ (downloaded via NCI Imaging Data Commons, idc-index)"
+  ],
+  "files": {
+    "tree": "tree.json",
+    "mesh": "airways.glb",
+    "ct": "ct.json"
+  },
+  "bounds_lps": {
+    "min": [
+      -86.292,
+      -184.685,
+      693.809
+    ],
+    "max": [
+      105.652,
+      -66.513,
+      1391.717
+    ]
+  },
+  "generated": "2026-11-09",
+  "bronchmap_version": "0.0.1"
+}
