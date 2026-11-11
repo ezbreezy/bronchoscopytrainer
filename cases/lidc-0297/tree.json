@@ -3374,7 +3374,13 @@
         1.17
       ],
       "length_mm": 21.68,
-      "lobe": "LUL"
+      "lobe": "LUL",
+      "label": {
+        "name": "Lingular bronchus, inferior segment",
+        "segment": "LB5",
+        "status": "suggested",
+        "variant": null
+      }
     },
     {
       "id": "b22",
@@ -3509,13 +3515,7 @@
         1.4
       ],
       "length_mm": 18.636,
-      "lobe": "LUL",
-      "label": {
-        "name": "Lingular bronchus, inferior segment",
-        "segment": "LB5",
-        "status": "suggested",
-        "variant": null
-      }
+      "lobe": "LUL"
     },
     {
       "id": "b23",

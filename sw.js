@@ -1,11 +1,11 @@
-// BronchoTrainer service worker. Template: vite.config.ts fills in 150da87f22ca and ["./","assets/index-CRbOIjsA.js","assets/index-DFJrFswF.css","icons/icon-192.png","icons/icon-512.png","icons/icon.svg","index.html","manifest.webmanifest"] at build time.
+// BronchoTrainer service worker. Template: vite.config.ts fills in 7d37b18f5ed8 and ["./","assets/index-CWWQYWvB.js","assets/index-DULgXZDo.css","icons/icon-192.png","icons/icon-512.png","icons/icon.svg","index.html","manifest.webmanifest"] at build time.
 //  - app shell (html, js, css, icons): precached on install, cache-first (index.html is network-first)
 //  - /cases/*: cached on first use. case.json and tree.json are network-first (cache fallback); big files are cache-first
 //    and never precached. The cache name carries a hash of the published case files, so changed data starts a fresh cache.
 const VERSION = "__VERSION__";
 const PRECACHE = __PRECACHE__;
 const SHELL = `bt-shell-${VERSION}`;
-const CASES = `bt-cases-d0de9a308c88`;
+const CASES = `bt-cases-974d634e6356`;
 const scope = self.registration.scope;
 const abs = (p) => new URL(p, scope).href;
 
