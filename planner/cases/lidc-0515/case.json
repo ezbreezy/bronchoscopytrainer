@@ -1,0 +1,29 @@
+{
+  "case_id": "lidc-0515",
+  "title": "Right-sided nodule (LIDC-IDRI-0515)",
+  "attribution": [
+    "LIDC-IDRI consortium (Armato SG III et al.); NCI and FNIH \u2014 CC BY 3.0",
+    "Armato SG III et al. Data from LIDC-IDRI. The Cancer Imaging Archive, 2015. https://doi.org/10.7937/K9/TCIA.2015.LO9QL9SX",
+    "https://www.cancerimagingarchive.net/collection/lidc-idri/ (downloaded via NCI Imaging Data Commons, idc-index); nodule masks: IDC dicom_lidc_idri_nodules (DICOM-SEG per reader)"
+  ],
+  "files": {
+    "tree": "tree.json",
+    "mesh": "airways.glb",
+    "ct": "ct.json",
+    "lesions": "lesions.json"
+  },
+  "bounds_lps": {
+    "min": [
+      -87.505,
+      -18.961,
+      -244.577
+    ],
+    "max": [
+      72.31,
+      90.581,
+      11.568
+    ]
+  },
+  "generated": "2026-11-11",
+  "bronchmap_version": "0.0.1"
+}

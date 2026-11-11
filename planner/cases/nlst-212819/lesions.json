@@ -1,0 +1,24 @@
+{
+  "lesions": [
+    {
+      "id": "lesion-1",
+      "label": "Lesion 1 - Tumor - Upper lobe of right lung",
+      "source": "NLSTSeg manual mask",
+      "centroid_lps": [
+        -21.26,
+        -82.47,
+        -953.56
+      ],
+      "radius_mm": 10.4,
+      "extent_mm": [
+        40.6,
+        31.9,
+        18.0
+      ],
+      "volume_ml": 4.711,
+      "lobe": "RUL",
+      "mesh": "lesion-1.glb"
+    }
+  ],
+  "frame": "LPS"
+}

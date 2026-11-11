@@ -1,0 +1,24 @@
+{
+  "lesions": [
+    {
+      "id": "lesion-1",
+      "label": "Nodule 1",
+      "source": "LIDC-IDRI reader consensus (4 readers)",
+      "centroid_lps": [
+        -51.75,
+        97.38,
+        -115.65
+      ],
+      "radius_mm": 8.16,
+      "extent_mm": [
+        19.9,
+        18.3,
+        17.5
+      ],
+      "volume_ml": 2.278,
+      "lobe": "RLL",
+      "mesh": "lesion-1.glb"
+    }
+  ],
+  "frame": "LPS"
+}

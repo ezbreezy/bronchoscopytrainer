@@ -1,4 +1,4 @@
-// BronchoTrainer service worker. Template: vite.config.ts fills in e3fa1c81b6cf and ["./","assets/index-BjH2Q0T9.css","assets/index-DyRplfuQ.js","icons/icon-192.png","icons/icon-512.png","icons/icon.svg","index.html","manifest.webmanifest"] at build time.
+// BronchoTrainer service worker. Template: vite.config.ts fills in 3fc52d2e010c and ["./","assets/index-rXFA5GaZ.css","assets/index-UlYnqesU.js","icons/icon-192.png","icons/icon-512.png","icons/icon.svg","index.html","manifest.webmanifest"] at build time.
 //  - app shell (html, js, css, icons): precached on install, cache-first (index.html is network-first)
 //  - /cases/*: cached on first use. index.json, case.json and tree.json are network-first (cache fallback); big files are cache-first
 //    and never precached. The cache name carries a hash of the published case files, so changed data starts a fresh cache.
@@ -69,6 +69,7 @@ self.addEventListener("fetch", (event) => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
   if (url.origin !== self.location.origin || !url.href.startsWith(scope)) return;
+  if (url.href.startsWith(abs("planner/"))) return; // the BronchMap planner ships under planner/: not ours to cache
   if (req.headers.has("range")) return; // let the network handle partial requests
   if (req.mode === "navigate") {
     event.respondWith(networkFirstPage(req));

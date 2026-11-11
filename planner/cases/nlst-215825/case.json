@@ -1,0 +1,29 @@
+{
+  "case_id": "nlst-215825",
+  "title": "Right lower lobe mass (NLST 215825)",
+  "attribution": [
+    "National Lung Screening Trial Research Team; lesion mask: Krishnaswamy D, Clunie DA, Fedorov A (NLSTSeg) \u2014 CC BY 4.0 (CT and lesion mask)",
+    "National Lung Screening Trial Research Team. Data from the National Lung Screening Trial (NLST). The Cancer Imaging Archive, 2013. https://doi.org/10.7937/TCIA.HMQ8-J677. Lesion mask: Krishnaswamy D, Clunie DA, Fedorov A. NLSTSeg, Zenodo, https://doi.org/10.5281/zenodo.17362624 (CC BY 4.0); Chen K-H et al., Sci Data 12:1475 (2025), https://doi.org/10.1038/s41597-025-05742-x",
+    "https://www.cancerimagingarchive.net/collection/nlst/ (downloaded via NCI Imaging Data Commons, idc-index); lesion mask: NLSTSeg https://doi.org/10.5281/zenodo.17362624"
+  ],
+  "files": {
+    "tree": "tree.json",
+    "mesh": "airways.glb",
+    "ct": "ct.json",
+    "lesions": "lesions.json"
+  },
+  "bounds_lps": {
+    "min": [
+      -102.428,
+      -80.404,
+      -284.319
+    ],
+    "max": [
+      104.644,
+      52.845,
+      -32.475
+    ]
+  },
+  "generated": "2026-11-11",
+  "bronchmap_version": "0.0.1"
+}
