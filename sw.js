@@ -1,11 +1,11 @@
-// BronchoTrainer service worker. Template: vite.config.ts fills in 6535a885eadc and ["./","assets/index-DeR_-JYw.js","assets/index-DULgXZDo.css","icons/icon-192.png","icons/icon-512.png","icons/icon.svg","index.html","manifest.webmanifest"] at build time.
+// BronchoTrainer service worker. Template: vite.config.ts fills in 32cac4a9fc6e and ["./","assets/index-DjsmXspR.css","assets/index-Dx4kSZNP.js","icons/icon-192.png","icons/icon-512.png","icons/icon.svg","index.html","manifest.webmanifest"] at build time.
 //  - app shell (html, js, css, icons): precached on install, cache-first (index.html is network-first)
-//  - /cases/*: cached on first use. case.json and tree.json are network-first (cache fallback); big files are cache-first
+//  - /cases/*: cached on first use. index.json, case.json and tree.json are network-first (cache fallback); big files are cache-first
 //    and never precached. The cache name carries a hash of the published case files, so changed data starts a fresh cache.
 const VERSION = "__VERSION__";
 const PRECACHE = __PRECACHE__;
 const SHELL = `bt-shell-${VERSION}`;
-const CASES = `bt-cases-8b3cf19e4be2`;
+const CASES = `bt-cases-579dd99d8fa2`;
 const scope = self.registration.scope;
 const abs = (p) => new URL(p, scope).href;
 
@@ -71,7 +71,7 @@ self.addEventListener("fetch", (event) => {
   if (req.mode === "navigate") {
     event.respondWith(networkFirstPage(req));
   } else if (url.pathname.includes("/cases/")) {
-    const small = /\/(case|tree)\.json$/.test(url.pathname);
+    const small = /\/(index|case|tree)\.json$/.test(url.pathname);
     event.respondWith(small ? networkFirst(req, CASES) : cacheFirst(req, CASES));
   } else {
     event.respondWith(cacheFirst(req, SHELL));
