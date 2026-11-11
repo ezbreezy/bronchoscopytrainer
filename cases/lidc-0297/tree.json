@@ -3620,7 +3620,13 @@
         1.386
       ],
       "length_mm": 14.494,
-      "lobe": "LUL"
+      "lobe": "LUL",
+      "label": {
+        "name": "Left upper lobe bronchus, posterior segment",
+        "segment": "LB2",
+        "status": "suggested",
+        "variant": "LB1+2 arises as separate apical and posterior bronchi"
+      }
     },
     {
       "id": "b24",
@@ -3910,10 +3916,10 @@
       "length_mm": 25.316,
       "lobe": "LUL",
       "label": {
-        "name": "Left upper lobe bronchus, apicoposterior segment",
-        "segment": "LB1+2",
+        "name": "Left upper lobe bronchus, apical segment",
+        "segment": "LB1",
         "status": "suggested",
-        "variant": null
+        "variant": "LB1+2 arises as separate apical and posterior bronchi"
       }
     },
     {
