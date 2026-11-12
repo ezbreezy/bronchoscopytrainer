@@ -1,0 +1,15 @@
+{
+  "name": "BronchMap planner",
+  "short_name": "BronchMap planner",
+  "description": "Plan a bronchoscopic route to a lesion on a public chest CT. Research prototype for education, not for clinical use.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1a2128",
+  "theme_color": "#1a2128",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

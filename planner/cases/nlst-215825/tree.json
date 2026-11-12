@@ -2121,7 +2121,13 @@
         1.453
       ],
       "length_mm": 12.556,
-      "lobe": "RLL"
+      "lobe": "RLL",
+      "label": {
+        "name": "Right lower lobe bronchus, superior segment",
+        "segment": "RB6",
+        "status": "suggested",
+        "variant": null
+      }
     },
     {
       "id": "b9",
@@ -2226,7 +2232,13 @@
         2.05
       ],
       "length_mm": 14.023,
-      "lobe": null
+      "lobe": null,
+      "label": {
+        "name": "Right lower lobe basal trunk",
+        "segment": null,
+        "status": "suggested",
+        "variant": null
+      }
     },
     {
       "id": "b10",
@@ -3191,7 +3203,8 @@
       "parent": "b9",
       "children": [
         "b42",
-        "b43"
+        "b85",
+        "b86"
       ],
       "generation": 4,
       "centerline": [
@@ -3269,6 +3282,56 @@
           -40.333,
           1.453,
           -203.39
+        ],
+        [
+          -40.585,
+          1.957,
+          -204.256
+        ],
+        [
+          -40.84,
+          2.432,
+          -205.136
+        ],
+        [
+          -41.097,
+          2.836,
+          -206.051
+        ],
+        [
+          -41.31,
+          3.262,
+          -206.968
+        ],
+        [
+          -41.523,
+          3.688,
+          -207.885
+        ],
+        [
+          -41.748,
+          4.138,
+          -208.786
+        ],
+        [
+          -41.986,
+          4.618,
+          -209.67
+        ],
+        [
+          -42.16,
+          5.096,
+          -210.569
+        ],
+        [
+          -42.452,
+          5.692,
+          -211.359
+        ],
+        [
+          -42.755,
+          6.297,
+          -212.14
         ]
       ],
       "radius_mm": [
@@ -3286,9 +3349,19 @@
         1.805,
         1.752,
         1.679,
-        1.625
+        1.625,
+        1.441,
+        1.487,
+        1.612,
+        1.542,
+        1.697,
+        1.734,
+        1.806,
+        1.835,
+        1.732,
+        2.13
       ],
-      "length_mm": 13.965,
+      "length_mm": 24.297,
       "lobe": "RLL"
     },
     {
@@ -3382,7 +3455,13 @@
         1.625
       ],
       "length_mm": 11.517,
-      "lobe": "RLL"
+      "lobe": "RLL",
+      "label": {
+        "name": "Right lower lobe bronchus, anterior basal segment",
+        "segment": "RB8",
+        "status": "suggested",
+        "variant": null
+      }
     },
     {
       "id": "b22",
@@ -5555,88 +5634,13 @@
         1.618
       ],
       "length_mm": 15.304,
-      "lobe": "RLL"
-    },
-    {
-      "id": "b43",
-      "parent": "b20",
-      "children": [
-        "b85",
-        "b86"
-      ],
-      "generation": 5,
-      "centerline": [
-        [
-          -40.333,
-          1.453,
-          -203.39
-        ],
-        [
-          -40.585,
-          1.957,
-          -204.256
-        ],
-        [
-          -40.84,
-          2.432,
-          -205.136
-        ],
-        [
-          -41.097,
-          2.836,
-          -206.051
-        ],
-        [
-          -41.31,
-          3.262,
-          -206.968
-        ],
-        [
-          -41.523,
-          3.688,
-          -207.885
-        ],
-        [
-          -41.748,
-          4.138,
-          -208.786
-        ],
-        [
-          -41.986,
-          4.618,
-          -209.67
-        ],
-        [
-          -42.16,
-          5.096,
-          -210.569
-        ],
-        [
-          -42.452,
-          5.692,
-          -211.359
-        ],
-        [
-          -42.755,
-          6.297,
-          -212.14
-        ]
-      ],
-      "radius_mm": [
-        1.625,
-        1.441,
-        1.487,
-        1.612,
-        1.542,
-        1.697,
-        1.734,
-        1.806,
-        1.835,
-        1.732,
-        2.13
-      ],
-      "length_mm": 10.332,
-      "lobe": "RLL"
+      "lobe": "RLL",
+      "label": {
+        "name": "Right lower lobe bronchus, lateral basal segment",
+        "segment": "RB9",
+        "status": "suggested",
+        "variant": null
+      }
     },
     {
       "id": "b44",
@@ -11074,12 +11078,12 @@
     },
     {
       "id": "b85",
-      "parent": "b43",
+      "parent": "b20",
       "children": [
         "b146",
         "b147"
       ],
-      "generation": 6,
+      "generation": 5,
       "centerline": [
         [
           -42.755,
@@ -11169,16 +11173,22 @@
         1.337
       ],
       "length_mm": 12.95,
-      "lobe": "RLL"
+      "lobe": "RLL",
+      "label": {
+        "name": "Right lower lobe bronchus, posterior basal segment",
+        "segment": "RB10",
+        "status": "suggested",
+        "variant": null
+      }
     },
     {
       "id": "b86",
-      "parent": "b43",
+      "parent": "b20",
       "children": [
         "b148",
         "b149"
       ],
-      "generation": 6,
+      "generation": 5,
       "centerline": [
         [
           -42.755,
@@ -11232,7 +11242,13 @@
         1.46
       ],
       "length_mm": 6.663,
-      "lobe": "RLL"
+      "lobe": "RLL",
+      "label": {
+        "name": "Right lower lobe bronchus, medial basal segment",
+        "segment": "RB7",
+        "status": "suggested",
+        "variant": null
+      }
     },
     {
       "id": "b87",
@@ -17929,7 +17945,7 @@
         "b209",
         "b210"
       ],
-      "generation": 7,
+      "generation": 6,
       "centerline": [
         [
           -50.747,
@@ -18052,7 +18068,7 @@
         "b211",
         "b212"
       ],
-      "generation": 7,
+      "generation": 6,
       "centerline": [
         [
           -50.747,
@@ -18163,7 +18179,7 @@
         "b213",
         "b214"
       ],
-      "generation": 7,
+      "generation": 6,
       "centerline": [
         [
           -41.544,
@@ -18310,7 +18326,7 @@
         "b215",
         "b216"
       ],
-      "generation": 7,
+      "generation": 6,
       "centerline": [
         [
           -41.544,
@@ -25396,7 +25412,7 @@
         "b243",
         "b244"
       ],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           -61.403,
@@ -25495,7 +25511,7 @@
         "b245",
         "b246"
       ],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           -61.403,
@@ -25564,7 +25580,7 @@
         "b247",
         "b248"
       ],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           -60.192,
@@ -25744,7 +25760,7 @@
       "id": "b212",
       "parent": "b147",
       "children": [],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           -60.192,
@@ -25864,7 +25880,7 @@
       "id": "b213",
       "parent": "b148",
       "children": [],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           -47.599,
@@ -26056,7 +26072,7 @@
       "id": "b214",
       "parent": "b148",
       "children": [],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           -47.599,
@@ -26119,7 +26135,7 @@
         "b249",
         "b250"
       ],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           -41.059,
@@ -26248,7 +26264,7 @@
         "b251",
         "b252"
       ],
-      "generation": 8,
+      "generation": 7,
       "centerline": [
         [
           -41.059,
@@ -29788,7 +29804,7 @@
       "id": "b243",
       "parent": "b209",
       "children": [],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           -70.849,
@@ -30082,7 +30098,7 @@
       "id": "b244",
       "parent": "b209",
       "children": [],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           -70.849,
@@ -30310,7 +30326,7 @@
       "id": "b245",
       "parent": "b210",
       "children": [],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           -64.309,
@@ -30436,7 +30452,7 @@
       "id": "b246",
       "parent": "b210",
       "children": [],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           -64.309,
@@ -30532,7 +30548,7 @@
       "id": "b247",
       "parent": "b211",
       "children": [],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           -69.638,
@@ -30640,7 +30656,7 @@
       "id": "b248",
       "parent": "b211",
       "children": [],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           -69.638,
@@ -30697,7 +30713,7 @@
         "b253",
         "b254"
       ],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           -44.692,
@@ -30790,7 +30806,7 @@
         "b255",
         "b256"
       ],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           -44.692,
@@ -30868,7 +30884,7 @@
       "id": "b251",
       "parent": "b216",
       "children": [],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           -31.614,
@@ -30976,7 +30992,7 @@
       "id": "b252",
       "parent": "b216",
       "children": [],
-      "generation": 9,
+      "generation": 8,
       "centerline": [
         [
           -31.614,
@@ -31024,7 +31040,7 @@
       "id": "b253",
       "parent": "b249",
       "children": [],
-      "generation": 10,
+      "generation": 9,
       "centerline": [
         [
           -41.544,
@@ -31114,7 +31130,7 @@
       "id": "b254",
       "parent": "b249",
       "children": [],
-      "generation": 10,
+      "generation": 9,
       "centerline": [
         [
           -41.544,
@@ -31180,7 +31196,7 @@
       "id": "b255",
       "parent": "b250",
       "children": [],
-      "generation": 10,
+      "generation": 9,
       "centerline": [
         [
           -47.841,
@@ -31483,7 +31499,7 @@
         "b257",
         "b258"
       ],
-      "generation": 10,
+      "generation": 9,
       "centerline": [
         [
           -47.841,
@@ -31585,7 +31601,7 @@
       "id": "b257",
       "parent": "b256",
       "children": [],
-      "generation": 11,
+      "generation": 10,
       "centerline": [
         [
           -48.083,
@@ -31843,7 +31859,7 @@
       "id": "b258",
       "parent": "b256",
       "children": [],
-      "generation": 11,
+      "generation": 10,
       "centerline": [
         [
           -48.083,
