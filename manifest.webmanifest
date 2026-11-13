@@ -1,6 +1,6 @@
 {
-  "name": "BronchoTrainer",
-  "short_name": "BronchoTrainer",
+  "name": "Bronchoscopy Trainer",
+  "short_name": "Bronch Trainer",
   "description": "Learn airway anatomy by flying through a bronchial tree built from a public chest CT. Educational prototype, not for clinical use.",
   "start_url": "./",
   "scope": "./",
