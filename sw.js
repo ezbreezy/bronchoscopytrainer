@@ -5,7 +5,7 @@
 const VERSION = "__VERSION__";
 const PRECACHE = __PRECACHE__;
 const SHELL = `bt-shell-${VERSION}`;
-const CASES = `bt-cases-590b867890a7`;
+const CASES = `bt-cases-4d5628a91415`;
 const scope = self.registration.scope;
 const abs = (p) => new URL(p, scope).href;
 
