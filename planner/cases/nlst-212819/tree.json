@@ -5031,13 +5031,7 @@
         1.782
       ],
       "length_mm": 31.588,
-      "lobe": "LLL",
-      "label": {
-        "name": "Left lower lobe bronchus, anteromedial basal segment",
-        "segment": "LB7+8",
-        "status": "suggested",
-        "variant": null
-      }
+      "lobe": "LLL"
     },
     {
       "id": "b34",
@@ -5723,8 +5717,8 @@
       "length_mm": 6.882,
       "lobe": "RLL",
       "label": {
-        "name": "Right lower lobe bronchus, anterior basal segment",
-        "segment": "RB8",
+        "name": "Right lower lobe bronchus, medial basal segment",
+        "segment": "RB7",
         "status": "suggested",
         "variant": null
       }
@@ -9909,7 +9903,13 @@
         1.881
       ],
       "length_mm": 37.904,
-      "lobe": "LLL"
+      "lobe": "LLL",
+      "label": {
+        "name": "Left lower lobe bronchus, anteromedial basal segment",
+        "segment": "LB7+8",
+        "status": "suggested",
+        "variant": null
+      }
     },
     {
       "id": "b72",
@@ -11273,8 +11273,8 @@
       "length_mm": 23.731,
       "lobe": "RLL",
       "label": {
-        "name": "Right lower lobe bronchus, lateral basal segment",
-        "segment": "RB9",
+        "name": "Right lower lobe bronchus, anterior basal segment",
+        "segment": "RB8",
         "status": "suggested",
         "variant": null
       }
@@ -18305,8 +18305,8 @@
       "length_mm": 37.819,
       "lobe": "RLL",
       "label": {
-        "name": "Right lower lobe bronchus, posterior basal segment",
-        "segment": "RB10",
+        "name": "Right lower lobe bronchus, lateral basal segment",
+        "segment": "RB9",
         "status": "suggested",
         "variant": null
       }
@@ -18530,8 +18530,8 @@
       "length_mm": 34.051,
       "lobe": "RLL",
       "label": {
-        "name": "Right lower lobe bronchus, medial basal segment",
-        "segment": "RB7",
+        "name": "Right lower lobe bronchus, posterior basal segment",
+        "segment": "RB10",
         "status": "suggested",
         "variant": null
       }

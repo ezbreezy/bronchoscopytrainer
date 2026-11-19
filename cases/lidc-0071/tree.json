@@ -7454,8 +7454,8 @@
       "length_mm": 14.359,
       "lobe": "RLL",
       "label": {
-        "name": "Right lower lobe bronchus, anterior basal segment",
-        "segment": "RB8",
+        "name": "Right lower lobe bronchus, medial basal segment",
+        "segment": "RB7",
         "status": "suggested",
         "variant": null
       }
@@ -13569,8 +13569,8 @@
       "length_mm": 29.318,
       "lobe": "RLL",
       "label": {
-        "name": "Right lower lobe bronchus, lateral basal segment",
-        "segment": "RB9",
+        "name": "Right lower lobe bronchus, anterior basal segment",
+        "segment": "RB8",
         "status": "suggested",
         "variant": null
       }
@@ -21598,8 +21598,8 @@
       "length_mm": 19.152,
       "lobe": "RLL",
       "label": {
-        "name": "Right lower lobe bronchus, posterior basal segment",
-        "segment": "RB10",
+        "name": "Right lower lobe bronchus, lateral basal segment",
+        "segment": "RB9",
         "status": "suggested",
         "variant": null
       }
@@ -21673,8 +21673,8 @@
       "length_mm": 8.417,
       "lobe": "RLL",
       "label": {
-        "name": "Right lower lobe bronchus, medial basal segment",
-        "segment": "RB7",
+        "name": "Right lower lobe bronchus, posterior basal segment",
+        "segment": "RB10",
         "status": "suggested",
         "variant": null
       }

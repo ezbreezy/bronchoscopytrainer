@@ -3100,8 +3100,8 @@
       "length_mm": 25.284,
       "lobe": "LLL",
       "label": {
-        "name": "Left lower lobe bronchus, anteromedial basal segment",
-        "segment": "LB7+8",
+        "name": "Left lower lobe bronchus, posterior basal segment",
+        "segment": "LB10",
         "status": "suggested",
         "variant": null
       }
@@ -3211,8 +3211,8 @@
       "length_mm": 13.901,
       "lobe": "LLL",
       "label": {
-        "name": "Left lower lobe bronchus, posterior basal segment",
-        "segment": "LB10",
+        "name": "Left lower lobe bronchus, lateral basal segment",
+        "segment": "LB9",
         "status": "suggested",
         "variant": null
       }
@@ -3298,8 +3298,8 @@
       "length_mm": 9.676,
       "lobe": "LLL",
       "label": {
-        "name": "Left lower lobe bronchus, lateral basal segment",
-        "segment": "LB9",
+        "name": "Left lower lobe bronchus, anteromedial basal segment",
+        "segment": "LB7+8",
         "status": "suggested",
         "variant": null
       }
@@ -7902,8 +7902,8 @@
       "length_mm": 23.47,
       "lobe": "RLL",
       "label": {
-        "name": "Right lower lobe bronchus, anterior basal segment",
-        "segment": "RB8",
+        "name": "Right lower lobe bronchus, medial basal segment",
+        "segment": "RB7",
         "status": "suggested",
         "variant": null
       }
@@ -12933,8 +12933,8 @@
       "length_mm": 20.784,
       "lobe": "RLL",
       "label": {
-        "name": "Right lower lobe bronchus, lateral basal segment",
-        "segment": "RB9",
+        "name": "Right lower lobe bronchus, anterior basal segment",
+        "segment": "RB8",
         "status": "suggested",
         "variant": null
       }
@@ -15492,8 +15492,8 @@
       "length_mm": 22.514,
       "lobe": "RLL",
       "label": {
-        "name": "Right lower lobe bronchus, medial basal segment",
-        "segment": "RB7",
+        "name": "Right lower lobe bronchus, lateral basal segment",
+        "segment": "RB9",
         "status": "suggested",
         "variant": null
       }
