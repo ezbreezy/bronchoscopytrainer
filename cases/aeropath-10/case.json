@@ -1,0 +1,29 @@
+{
+  "case_id": "aeropath-10",
+  "title": "AeroPath case 10",
+  "attribution": [
+    "St\u00f8verud KH, Bouget D, Pedersen A, Leira HO, Lang\u00f8 T, Hofstad EF \u2014 CC BY 4.0",
+    "St\u00f8verud KH, Bouget D, Pedersen A, Leira HO, Lang\u00f8 T, Hofstad EF. AeroPath: An airway segmentation benchmark dataset with challenging pathology. arXiv:2311.01138 (2023). Data: https://doi.org/10.5281/zenodo.10069289",
+    "https://zenodo.org/records/10069289 (downloaded from the authors' mirror https://huggingface.co/datasets/andreped/AeroPath)"
+  ],
+  "files": {
+    "tree": "tree.json",
+    "mesh": "airways.glb",
+    "ct": "ct.json",
+    "lesions": "lesions.json"
+  },
+  "bounds_lps": {
+    "min": [
+      -100.146,
+      -57.842,
+      -180.921
+    ],
+    "max": [
+      102.333,
+      96.501,
+      27.92
+    ]
+  },
+  "generated": "2026-11-22",
+  "bronchmap_version": "0.0.1"
+}

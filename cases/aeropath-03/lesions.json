@@ -1,0 +1,26 @@
+{
+  "lesions": [
+    {
+      "id": "lesion-1",
+      "label": "Lesion 1",
+      "source": "Automatic suggestion (TotalSegmentator lung_nodules), checked by a clinician on axial and coronal review",
+      "centroid_lps": [
+        -85.55,
+        -107.31,
+        72.52
+      ],
+      "radius_mm": 9.69,
+      "extent_mm": [
+        24.1,
+        22.0,
+        19.5
+      ],
+      "volume_ml": 3.809,
+      "lobe": "RLL",
+      "mesh": "lesion-1.glb",
+      "status": "verified",
+      "verified_by": "Project clinician, review sheet 2026-11-22"
+    }
+  ],
+  "frame": "LPS"
+}

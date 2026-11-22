@@ -1,0 +1,25 @@
+{
+  "format": "u8-raw-gzip",
+  "data": "ct.u8.gz",
+  "shape": [
+    301,
+    232,
+    301
+  ],
+  "spacing_mm": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "origin_lps": [
+    -141.19,
+    -261.512,
+    -497.25
+  ],
+  "order": "x-fastest",
+  "window_hu": [
+    -1350,
+    150
+  ],
+  "frame": "LPS"
+}
