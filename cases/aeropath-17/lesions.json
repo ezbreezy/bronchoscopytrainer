@@ -17,6 +17,16 @@
       ],
       "volume_ml": 16.151,
       "lobe": "LUL",
+      "lobe_source": "lobe mask",
+      "segment": {
+        "name": "Left upper lobe, anterior segment",
+        "bronchus": "Left upper lobe bronchus, anterior segment",
+        "code": "LB3",
+        "lobe": "LUL",
+        "fraction": 1.0,
+        "airway_label_status": "suggested",
+        "status": "suggested"
+      },
       "mesh": "lesion-1.glb",
       "status": "verified",
       "verified_by": "Project clinician, review sheet 2026-11-22"

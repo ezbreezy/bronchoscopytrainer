@@ -17,6 +17,16 @@
       ],
       "volume_ml": 10.188,
       "lobe": "LLL",
+      "lobe_source": "lobe mask",
+      "segment": {
+        "name": "Left lower lobe, superior segment",
+        "bronchus": "Left lower lobe bronchus, superior segment",
+        "code": "LB6",
+        "lobe": "LLL",
+        "fraction": 1.0,
+        "airway_label_status": "suggested",
+        "status": "suggested"
+      },
       "mesh": "lesion-1.glb"
     }
   ],

@@ -17,6 +17,8 @@
       ],
       "volume_ml": 34.066,
       "lobe": "RML",
+      "lobe_source": "lobe mask",
+      "segment": null,
       "mesh": "lesion-1.glb",
       "status": "verified",
       "verified_by": "Project clinician, review sheet 2026-11-22"

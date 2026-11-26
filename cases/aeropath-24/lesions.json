@@ -17,6 +17,16 @@
       ],
       "volume_ml": 130.837,
       "lobe": "LLL",
+      "lobe_source": "lobe mask",
+      "segment": {
+        "name": "Left lower lobe, anteromedial basal segment",
+        "bronchus": "Left lower lobe bronchus, anteromedial basal segment",
+        "code": "LB7+8",
+        "lobe": "LLL",
+        "fraction": 0.421,
+        "airway_label_status": "suggested",
+        "status": "suggested"
+      },
       "mesh": "lesion-1.glb",
       "status": "verified",
       "verified_by": "Project clinician, review sheet 2026-11-22"

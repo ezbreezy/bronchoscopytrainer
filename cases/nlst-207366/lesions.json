@@ -18,6 +18,15 @@
       "volume_ml": 15.658,
       "lobe": "RUL",
       "lobe_source": "lobe mask",
+      "segment": {
+        "name": "Right upper lobe, anterior segment",
+        "bronchus": "Right upper lobe bronchus, anterior segment",
+        "code": "RB3",
+        "lobe": "RUL",
+        "fraction": 0.503,
+        "airway_label_status": "suggested",
+        "status": "suggested"
+      },
       "mesh": "lesion-1.glb"
     }
   ],

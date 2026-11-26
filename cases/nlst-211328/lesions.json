@@ -18,6 +18,15 @@
       "volume_ml": 12.142,
       "lobe": "RML",
       "lobe_source": "lobe mask",
+      "segment": {
+        "name": "Right middle lobe, lateral segment",
+        "bronchus": "Right middle lobe bronchus, lateral segment",
+        "code": "RB4",
+        "lobe": "RML",
+        "fraction": 0.541,
+        "airway_label_status": "suggested",
+        "status": "suggested"
+      },
       "mesh": "lesion-1.glb"
     }
   ],

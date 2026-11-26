@@ -18,6 +18,15 @@
       "volume_ml": 7.454,
       "lobe": "RLL",
       "lobe_source": "lobe mask",
+      "segment": {
+        "name": "Right lower lobe, superior segment",
+        "bronchus": "Right lower lobe bronchus, superior segment",
+        "code": "RB6",
+        "lobe": "RLL",
+        "fraction": 1.0,
+        "airway_label_status": "suggested",
+        "status": "suggested"
+      },
       "mesh": "lesion-1.glb"
     }
   ],

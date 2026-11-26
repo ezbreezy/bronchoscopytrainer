@@ -17,6 +17,16 @@
       ],
       "volume_ml": 8.541,
       "lobe": "RLL",
+      "lobe_source": "lobe mask",
+      "segment": {
+        "name": "Right lower lobe, posterior basal segment",
+        "bronchus": "Right lower lobe bronchus, posterior basal segment",
+        "code": "RB10",
+        "lobe": "RLL",
+        "fraction": 0.947,
+        "airway_label_status": "suggested",
+        "status": "suggested"
+      },
       "mesh": "lesion-1.glb"
     }
   ],

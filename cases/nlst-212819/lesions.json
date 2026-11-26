@@ -17,6 +17,16 @@
       ],
       "volume_ml": 4.711,
       "lobe": "RUL",
+      "lobe_source": "lobe mask",
+      "segment": {
+        "name": "Right upper lobe, posterior segment",
+        "bronchus": "Right upper lobe bronchus, posterior segment",
+        "code": "RB2",
+        "lobe": "RUL",
+        "fraction": 1.0,
+        "airway_label_status": "suggested",
+        "status": "suggested"
+      },
       "mesh": "lesion-1.glb"
     }
   ],
